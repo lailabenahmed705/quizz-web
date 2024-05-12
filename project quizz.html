@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PHP Quiz App</title>
+<link rel="stylesheet" href="stylequizz.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>PHP Quiz</h1>
+  <div class="question" id="question1">
+    <p>1. What does PHP stand for?</p>
+    <div class="options">
+      <label><input type="radio" name="q1" value="a"> Personal Home Page</label>
+      <label><input type="radio" name="q1" value="b"> PHP: Hypertext Preprocessor</label>
+      <label><input type="radio" name="q1" value="c"> Private Home Page</label>
+      <label><input type="radio" name="q1" value="d"> Personal Hypertext Processor</label>
+    </div>
+  </div>
+  <div class="question" id="question2">
+    <p>2. What function is used to output text in PHP?</p>
+    <div class="options">
+      <label><input type="radio" name="q2" value="a">echo() </label>
+      <label><input type="radio" name="q2" value="b">print() </label>
+      <label><input type="radio" name="q2" value="c">printf() </label>
+      <label><input type="radio" name="q2" value="d">display() </label>
+    </div>
+</div>
+<div class="question" id="question3">
+<p>3. Which symbol is used to denote comments in PHP?</p>
+<div class="options">
+<label><input type="radio" name="q3" value="a">//</label>
+<label><input type="radio" name="q3" value="b">#</label>
+<label><input type="radio" name="q3" value="c">--</label>
+<label><input type="radio" name="q3" value="d"> /* */</label>    
+</div>
+</div>
+<div class="question" id="question4">
+<p>4. Which of the following PHP superglobals is used to retrieve form data after submitting an HTML form?</p>
+<div class="options">
+<label><input type="radio" name="q4" value="a">$_GET</label>
+<label><input type="radio" name="q4" value="b">$_POST</label> 
+<label><input type="radio" name="q4" value="c">$_REQUEST</label> 
+<label><input type="radio" name="q4" value="d">$_SERVER</label>    
+</div>
+</div>
+<div class="question" id="question5">
+    <p>5. What function is used to redirect the user to another web page in PHP?</p>
+    <div class="options">
+    <label><input type="radio" name="q5" value="a">redirect()</label>
+    <label><input type="radio" name="q5" value="b"> forward()</label> 
+    <label><input type="radio" name="q5" value="c">header()</label> 
+    <label><input type="radio" name="q5" value="d">location()</label>    
+    </div>
+    </div>
+
+<div class="question" id="question6">
+    <p>6. Which PHP function is used to establish a database connection?</p>
+    <div class="options">
+    <label><input type="radio" name="q6" value="a">connect()</label>
+    <label><input type="radio" name="q6" value="b">open() </label> 
+    <label><input type="radio" name="q6" value="c">db_connect()</label> 
+    <label><input type="radio" name="q6" value="d">mysqli_connect()</label>    
+    </div>
+    </div>
+<div class="question" id="question7">
+    <p>7. Which PHP function is used to delete a file?</p>
+    <div class="options">
+    <label><input type="radio" name="q7" value="a">remove_file()</label>
+    <label><input type="radio" name="q7" value="b">delete() </label> 
+    <label><input type="radio" name="q7" value="c">unlink()</label> 
+    <label><input type="radio" name="q7" value="d">file_delete()</label>    
+    </div>
+    </div>
+<div class="question" id="question8">
+    <p>8. Which PHP array function is used to sort an array in ascending order? </p>
+    <div class="options">
+    <label><input type="radio" name="q8" value="a">array_sort()</label>
+    <label><input type="radio" name="q8" value="b">sort_array()</label> 
+    <label><input type="radio" name="q8" value="c">array_asc()</label> 
+    <label><input type="radio" name="q8" value="d">sort()</label>    
+    </div>
+    </div>
+<div class="question" id="question9">
+    <p>9. What does the strlen() function in PHP do? </p>
+    <div class="options">
+    <label><input type="radio" name="q9" value="a">Returns the number of elements in an array</label>
+    <label><input type="radio" name="q9" value="b"> Returns the length of a string</label> 
+    <label><input type="radio" name="q9" value="c"> Returns the number of characters in a string</label> 
+    <label><input type="radio" name="q9" value="d">Returns the size of a file</label>    
+    </div>
+    </div>
+<div class="question" id="question10">
+    <p>10. How do you include the contents of one PHP file into another PHP file? </p>
+    <div class="options">
+    <label><input type="radio" name="q10" value="a">include()</label>
+    <label><input type="radio" name="q10" value="b">require()</label> 
+    <label><input type="radio" name="q10" value="c">import()</label> 
+    <label><input type="radio" name="q10" value="d">include_once()</label>    
+    </div>
+    </div>
+<div class="question" id="question11">
+    <p>11. What is the default file extension for PHP files?  </p>
+    <div class="options">
+    <label><input type="radio" name="q11" value="a">.html</label>
+    <label><input type="radio" name="q11" value="b">.php</label> 
+    <label><input type="radio" name="q11" value="c">.xml</label> 
+    <label><input type="radio" name="q11" value="d">.txt</label>    
+    </div>
+    </div>
+
+<div class="question" id="question12">
+    <p>12. Which PHP function is used to check if a variable is empty? </p>
+    <div class="options">
+    <label><input type="radio" name="q12" value="a">empty()</label>
+    <label><input type="radio" name="q12" value="b">is_empty()</label> 
+    <label><input type="radio" name="q12" value="c">is_null()</label> 
+    <label><input type="radio" name="q12" value="d">isset()</label>    
+    </div>
+    </div>
+    <div class="question" id="question13">
+      <p>13. What does the 'die()'' function do in PHP? </p>
+      <div class="options">
+      <label><input type="radio" name="q13" value="a">Stops the execution of the script</label>
+      <label><input type="radio" name="q13" value="b">Echoes a message and stops the execution of the script</label> 
+      <label><input type="radio" name="q13" value="c">Reloads the current page</label> 
+      <label><input type="radio" name="q13" value="d">Redirects to another page</label>    
+      </div>
+      <div class="question" id="question14">
+      <p>14. Which of the following is NOT a valid PHP data type?  </p>
+      <div class="options">
+      <label><input type="radio" name="q14" value="a">string</label>
+      <label><input type="radio" name="q14" value="b">array</label> 
+      <label><input type="radio" name="q14" value="c">boolean</label> 
+      <label><input type="radio" name="q14" value="d">object</label>    
+      </div>
+      </div>   
+      
+        <div class="question" id="question15">
+        <p>15. What is the purpose of the 'isset()' function in PHP?   </p>
+        <div class="options">
+        <label><input type="radio" name="q15" value="a">Checks if a variable is empty</label>
+        <label><input type="radio" name="q15" value="b">Checks if a variable is declared and is not NULL</label> 
+        <label><input type="radio" name="q15" value="c">Checks if a variable is numeric</label> 
+        <label><input type="radio" name="q15" value="d">Checks if a variable is a string</label>    
+        </div>
+        </div>
+
+        <div class="question" id="question16">
+          <p>16. How do you declare a constant in PHP? </p>
+          <div class="options">
+          <label><input type="radio" name="q16" value="a">define(name, value)</label>
+          <label><input type="radio" name="q16" value="b">const name = value;</label> 
+          <label><input type="radio" name="q16" value="c">const(name, value)</label> 
+          <label><input type="radio" name="q16" value="d">define name = value;</label>    
+          </div>
+          </div>
+          <div class="question" id="question17">
+            <p>17. Which PHP function is used to remove whitespace or other predefined characters from the right side of a string?  </p>
+            <div class="options">
+            <label><input type="radio" name="q17" value="a">rtrim()</label>
+            <label><input type="radio" name="q17" value="b">trim()</label> 
+            <label><input type="radio" name="q17" value="c">ltrim()</label> 
+            <label><input type="radio" name="q17" value="d">str_replace()</label>    
+            </div>
+            </div>
+            <div class="question" id="question18">
+              <p>18. What does the substr() function in PHP do?    </p>
+              <div class="options">
+              <label><input type="radio" name="q18" value="a">Extracts a substring from a string</label>
+              <label><input type="radio" name="q18" value="b">Replaces occurrences of a substring in a string</label> 
+              <label><input type="radio" name="q18" value="c">Returns the length of a string</label> 
+              <label><input type="radio" name="q18" value="d">Concatenates two strings</label>    
+              </div>
+              </div>
+              <div class="question" id="question19">
+                <p>19. How do you access the value of the first element in an array in PHP?    </p>
+                <div class="options">
+                <label><input type="radio" name="q19" value="a">$array[1]</label>
+                <label><input type="radio" name="q19" value="b">$array[first]</label> 
+                <label><input type="radio" name="q19" value="c">$array[0]</label> 
+                <label><input type="radio" name="q19" value="d">$array[first()]</label>    
+                </div>
+                </div>
+                <div class="question" id="question20">
+                  <p>20. Which PHP function is used to generate a random number?     </p>
+                  <div class="options">
+                  <label><input type="radio" name="q20" value="a">random()</label>
+                  <label><input type="radio" name="q20" value="b">rand()</label> 
+                  <label><input type="radio" name="q20" value="c">random_number()</label> 
+                  <label><input type="radio" name="q20" value="d">generate_random()</label>    
+                  </div>
+                  </div>  
+
+  
+
+  <button onclick="jsquizz()">Submit</button>
+  <div class="result" id="result"></div>
+</div>
+<script src="jsquizz.js"></script>
+
+  
+
+</body>
+</html>
